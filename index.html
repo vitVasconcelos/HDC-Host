@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HDC Host</title>
     <!--icones-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="./src/css/responsividade.css">
     <script src="./src/javascript/scripts.js" defer></script>
 </head>
+
 <body>
     <div class="container">
         <div class="navbar-container">
@@ -30,11 +34,11 @@
                         <a href="#contact">Contato</a>
                     </li>
                     <li>
-                        <a  class ="defaut-btn" href="#">Entrar</a>
+                        <a class="defaut-btn" href="#">Entrar</a>
                     </li>
                 </ul>
             </nav>
-        
+
         </div>
         <main>
             <section class="main-banner" id="home">
@@ -46,17 +50,23 @@
                     <li>
                         <i class="fas fa-shield-alt"></i>
                         <h3>Segurança</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sed quia, laborum enim animi voluptate aperiam blanditiis tempora corporis? Quidem ullam, totam quos praesentium sit possimus nihil officiis at corrupti.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sed quia, laborum enim animi
+                            voluptate aperiam blanditiis tempora corporis? Quidem ullam, totam quos praesentium sit
+                            possimus nihil officiis at corrupti.</p>
                     </li>
                     <li>
                         <i class="fas fa-rocket"></i>
                         <h3>Performace</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sed quia, laborum enim animi voluptate aperiam blanditiis tempora corporis? Quidem ullam, totam quos praesentium sit possimus nihil officiis at corrupti.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sed quia, laborum enim animi
+                            voluptate aperiam blanditiis tempora corporis? Quidem ullam, totam quos praesentium sit
+                            possimus nihil officiis at corrupti.</p>
                     </li>
                     <li>
                         <i class="fas fa-comments"></i>
                         <h3>Suporte 24/7</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sed quia, laborum enim animi voluptate aperiam blanditiis tempora corporis? Quidem ullam, totam quos praesentium sit possimus nihil officiis at corrupti.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sed quia, laborum enim animi
+                            voluptate aperiam blanditiis tempora corporis? Quidem ullam, totam quos praesentium sit
+                            possimus nihil officiis at corrupti.</p>
                     </li>
                 </ul>
             </section>
@@ -126,10 +136,27 @@
                 <h2>Mande uma mensagem</h2>
                 <p>Envie a sua mensagem, em até 4 horas um especialista entrará em contato</p>
                 <form>
-                    <input type="text" name="" id="" id="name" placeholder="Seu nome">
-                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
-                    <textarea name="message" id="message" placeholder="Descreva o que você precisa ou o seu projeto..."></textarea>
-                    <input type="submit" value="Enviar">
+                    <div class="field">
+                        <input type="text" name="name" id="name" placeholder="Seu nome">
+                        <span id="erro-name"></span>
+                    </div>
+                    <div class="field">
+                        <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                        <span id="erro-email"></span>
+                    </div>
+                    <div class="field">
+                        <textarea name="message" id="message"
+                            placeholder="Descreva o que você precisa ou o seu projeto..."></textarea>
+                        <span id="erro-message"></span>
+                    </div>
+                    <div class="field">
+                        <input type="submit" value="Enviar" id="send-button">
+                        <span id="erro-send"></span>
+
+                    </div>
+
+
+
                 </form>
             </section>
         </main>
@@ -138,4 +165,5 @@
         </footer>
     </div>
 </body>
+
 </html>
