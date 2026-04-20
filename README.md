@@ -69,6 +69,7 @@ O projeto demonstra a aplicação prática de conceitos de **estrutura semântic
 
 - **HTML5**
 - **CSS3**
+- **javascript**
 - **Font Awesome (Ícones)**
 - **Media Queries**
 - **Flexbox**
