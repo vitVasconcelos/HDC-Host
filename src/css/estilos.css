@@ -15,7 +15,16 @@ p{
     height: 80px;
     background-color: #232a31;
     padding: 0 2rem;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
 }
+.ativo {
+   color:  #2cc76a;
+    border-bottom: 4px solid #2cc76a;
+  }
 nav{
     position: relative;
 }
